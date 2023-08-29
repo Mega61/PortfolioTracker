@@ -6,6 +6,7 @@ from time import sleep
 
 # Verificando si el archivo CSV "StockIndex.csv" existe
 fileExist = True
+dummy = False
 try:
     df = pd.read_csv("StockIndex.csv")
 except:
